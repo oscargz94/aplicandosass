@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header" "nav" "img form" "footer";
+}
+
+header {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  background-color: #2c2c61;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  justify-items: center;
+  background-color: #bebebe;
+  padding: 10px 10px;
+}
+
+nav a {
+  color: #0f0f0f;
+  text-decoration: none;
+}
+
+.login {
+  background-color: #d9dfdf;
+  padding: 200px 150px 200px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login form {
+  padding-top: 30px;
+}
+
+.login form fieldset {
+  border-color: black;
+  background-color: #8e8f8f;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  background-color: #1b1b4d;
+  padding: 30px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */

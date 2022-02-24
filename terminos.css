@@ -1,0 +1,9 @@
+.footera {  
+    text-decoration: underline;
+    color: black;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 15px;
+    display: flex;
+    justify-items: center;
+}

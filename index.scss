@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas: "header"
+    "nav"
+    "img form"
+    "footer";
+}
+header {
+    grid-row-start: 1;
+    background-color: rgb(44, 44, 97);
+    h1 {
+        text-align: center;
+        color: white;
+    }
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    background-color: rgb(190, 190, 190);
+    padding: 10px 10px;
+    a {
+        color: rgb(15, 15, 15);
+        text-decoration: none;
+    }
+}
+.login {
+    background-color: rgb(217, 223, 223);
+    padding: 200px 150px 200px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    form {
+        padding-top: 30px;
+        fieldset {
+            border-color: black;
+            background-color: rgb(142, 143, 143);
+        }
+    }
+}
+footer {
+    display: grid;
+    justify-items: center;
+    background-color: rgb(27, 27, 77);
+    padding: 30px;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,86 @@
+header  {
+
+    align-items: center;
+    background-color: #21c08b;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    top: 0px;
+    width: 100%;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    background-color: rgb(25, 25, 75);
+}
+
+menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: white;
+    padding: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+    border-width: 5px 0px 5px 0px;
+}
+
+a {
+    display: flex;
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+/*aplicando grid*/
+.fotosuperv{
+    display: grid;
+    grid-template-areas: 'sup1 sup2' 'sup3 sup4';
+    
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    margin: 20px 200px;
+    background-color: rgb(25, 25, 73);
+}
+div img {
+
+    grid-area: 'imagen';
+    width: 200px;
+    height: 220px;
+    
+}
+
+p {
+    grid-area: 'parrafo';
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0px 50px 0px 50px  ;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    
+}
+
+
+.footera {
+    text-decoration: underline;
+    color: black;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 15px;
+    display: center;
+}
