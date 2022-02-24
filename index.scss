@@ -27,7 +27,7 @@ nav {
     }
 }
 .login {
-    background-color: rgb(217, 223, 223);
+    background-color: rgb(249, 252, 252);
     padding: 200px 150px 200px 0;
     display: grid;
     grid-template-columns: auto auto;
@@ -38,6 +38,11 @@ nav {
         fieldset {
             border-color: black;
             background-color: rgb(142, 143, 143);
+            padding: 50px;
+            .log {
+                text-align: center;
+                font-weight: bold;
+            }
         }
     }
 }
