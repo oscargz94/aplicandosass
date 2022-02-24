@@ -38,7 +38,7 @@ nav a {
 }
 
 .login {
-  background-color: #f9fcfc;
+  background-color: #fdfdfd;
   padding: 200px 150px 200px 0;
   display: -ms-grid;
   display: grid;
@@ -56,8 +56,8 @@ nav a {
 
 .login form fieldset {
   border-color: black;
-  background-color: #8e8f8f;
-  padding: 50px;
+  background-color: #a7a8a8;
+  padding: 40px;
 }
 
 .login form fieldset .log {
